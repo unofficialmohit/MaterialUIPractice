@@ -49,7 +49,7 @@ function App() {
           <Button variant="contained" onClick={()=>{alert('clicked')}}>MOHIT</Button>
           <Button variant="outlined">MOHIT</Button>
           <Button variant="contained" disabled>MOHIT</Button>
-          <Button variant="contained" color={success} endIcon={successIcon?<TickButton/>:<DeleteButton/>} onClick={handleClick}>MOHIT</Button>
+          <Button variant="contained" color={success} endIcon={successIcon?<TickButton/>:<DeleteButton/>} onClick={handleClick}>CLICK ME</Button>
           <Button variant="outlined" color='error' startIcon={<DeleteButton/>}>MOHIT</Button>
         </div>
       <div>
@@ -127,9 +127,9 @@ function App() {
         <div>Switches</div>
         <div>
           <FormGroup>
-            <FormControlLabel control={<Switch/>} label="GUJJAR"/>
-            <FormControlLabel control={<Switch/>} label="MUSKAN"/>
-            <FormControlLabel control={<Switch/>} label="MOHIT"/>
+            <FormControlLabel control={<Switch/>} label="ROBERT"/>
+            <FormControlLabel control={<Switch/>} label="WILLIAM"/>
+            <FormControlLabel control={<Switch/>} label="JHON"/>
           </FormGroup>
           
         </div>
